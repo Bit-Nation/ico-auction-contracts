@@ -4,8 +4,8 @@
  * Author: Mikhail Vladimirov <mikhail.vladimirov@gmail.com>
  */
 
-var startPrice = 1.0e18 / (22.0 * rate);
-var endPrice = 1.0e18 / (112.0 * rate);
+var startPrice = 1.0 / (22.0 * rate);
+var endPrice = 1.0 / (112.0 * rate);
 
 var C = 0.125;
 var D = saleDuration * 24.0 * 3600.0;

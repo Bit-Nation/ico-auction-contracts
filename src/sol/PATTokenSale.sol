@@ -261,7 +261,7 @@ contract PATTokenSale is Math {
    * @param y second value
    * @return minimum of two values
    */
-  function min (uint256 x, uint256 y) pure returns (uint256) {
+  function min (uint256 x, uint256 y) internal pure returns (uint256) {
     return x < y ? x : y;
   }
 
